@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd">
+
+
+<bean id="urlMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">   
+        <property name="mappings">
+             <props> 
+                <prop key="/captcha-image.html">captchaImageCreateController</prop>     
+               <prop key="/signupPage.jsp">captchaFormController</prop>                   
+             </props>
+        </property> 
+ </bean> 
+ 
+ <bean id="jstlViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+           <property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
+           <property name="prefix" value="/WEB-INF/jsp/"/>     
+           <property name="suffix" value=".jsp"/>
+ </bean>  
+ 
+ <bean id="captchaImageCreateController" 
+         class="com.mob.captcha.CaptchaImageCreateController" >
+        <property name="jcaptchaService" ref="jcaptchaService"/>
+ </bean>
+ 
+    <bean id="captchaFormController" 
+         class="com.mob.captcha.CaptchaFormController" >
+         <property name="formView" value="captcha"/>
+        <property name="sessionForm" value="false"/>
+   </bean>
+
+
+<bean name="/captcha-image.html" class="com.octo.captcha.service.image.DefaultManageableImageCaptchaService" id="imageCaptchaService"/>
+
+ <!-- jcaptchaService is injected into captchaImageCreateController as well as to captchaService beans -->
+ <bean id="jcaptchaService" class="com.octo.captcha.service.image.DefaultManageableImageCaptchaService" />  
+
+</beans>

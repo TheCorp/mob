@@ -1,0 +1,1 @@
+<jsp:forward page="/public/landingpage.action"></jsp:forward>

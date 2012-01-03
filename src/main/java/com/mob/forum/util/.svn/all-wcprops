@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/util
+END
+I18n.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/util/I18n.java
+END
+CategoryOrderComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/util/CategoryOrderComparator.java
+END
+GroupNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/util/GroupNode.java
+END
+Captcha.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/util/Captcha.java
+END
+SafeHtml.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/util/SafeHtml.java
+END
+URLNormalizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/util/URLNormalizer.java
+END
+MD5.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/util/MD5.java
+END
+DbUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/util/DbUtils.java
+END
+FormSelectedData.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/util/FormSelectedData.java
+END
+FileMonitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/util/FileMonitor.java
+END
+FileChangeListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/util/FileChangeListener.java
+END
+ForumOrderComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/util/ForumOrderComparator.java
+END
+TreeGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/util/TreeGroup.java
+END

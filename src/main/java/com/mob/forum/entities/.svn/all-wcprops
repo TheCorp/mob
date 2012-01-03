@@ -1,0 +1,233 @@
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/MyOwnBriefcase/!svn/ver/3979/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/entities
+END
+AttachmentExtensionGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/entities/AttachmentExtensionGroup.java
+END
+AttachmentInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/entities/AttachmentInfo.java
+END
+ModerationLogType.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/entities/ModerationLogType.java
+END
+Banner.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/entities/Banner.java
+END
+Bookmark.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/entities/Bookmark.java
+END
+Poll.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/entities/Poll.java
+END
+ForumStats.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/entities/ForumStats.java
+END
+ModeratorInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/entities/ModeratorInfo.java
+END
+TopicTypeComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/entities/TopicTypeComparator.java
+END
+ProfileForum.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/MyOwnBriefcase/!svn/ver/3952/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/entities/ProfileForum.java
+END
+Category.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/entities/Category.java
+END
+User.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/MyOwnBriefcase/!svn/ver/3979/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/entities/User.java
+END
+PrivateMessageType.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/entities/PrivateMessageType.java
+END
+ModerationPendingInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/entities/ModerationPendingInfo.java
+END
+Post.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/MyOwnBriefcase/!svn/ver/3952/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/entities/Post.java
+END
+MailIntegration.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/entities/MailIntegration.java
+END
+QuotaLimit.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/entities/QuotaLimit.java
+END
+Attachment.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/entities/Attachment.java
+END
+Ranking.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/entities/Ranking.java
+END
+MostUsersEverOnline.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/entities/MostUsersEverOnline.java
+END
+Group.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/entities/Group.java
+END
+PollOption.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/entities/PollOption.java
+END
+PollChanges.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/entities/PollChanges.java
+END
+KarmaStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/entities/KarmaStatus.java
+END
+ModerationLog.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/entities/ModerationLog.java
+END
+Config.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/entities/Config.java
+END
+BookmarkType.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/entities/BookmarkType.java
+END
+TopicModerationInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/entities/TopicModerationInfo.java
+END
+Topic.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/MyOwnBriefcase/!svn/ver/3979/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/entities/Topic.java
+END
+PrivateMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/MyOwnBriefcase/!svn/ver/3961/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/entities/PrivateMessage.java
+END
+Smilie.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/entities/Smilie.java
+END
+UserSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/entities/UserSession.java
+END
+LastPostInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/MyOwnBriefcase/!svn/ver/3979/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/entities/LastPostInfo.java
+END
+AttachmentExtension.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/entities/AttachmentExtension.java
+END
+ForumModerationInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/entities/ForumModerationInfo.java
+END
+Forum.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/entities/Forum.java
+END
+Karma.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/entities/Karma.java
+END
+Banlist.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/entities/Banlist.java
+END

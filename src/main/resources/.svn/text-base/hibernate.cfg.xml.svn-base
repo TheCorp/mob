@@ -1,0 +1,83 @@
+ <!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+	
+    <session-factory>
+       <property name="show_sql">true</property>    
+     	<property name="hibernate.search.default.directory_provider">org.hibernate.search.store.FSDirectoryProvider</property>
+			<property name="hibernate.search.default.indexBase">./lucene/indexes</property>
+		<property name="hibernate.search.default.batch.merge_factor">10</property>
+		<property name="hibernate.search.default.batch.max_buffered_docs">10</property>
+    	<property name="connection.driver_class">com.mysql.jdbc.Driver</property>  
+    
+         <property name="connection.url">jdbc:mysql://localhost:3306/mob</property> 
+      <property name="connection.username">root</property> 
+       <property name="connection.password">root</property> 
+       <mapping class="com.mob.model.Role"/>
+       <mapping class="com.mob.model.help.Help"/>
+       <mapping class="com.mob.model.User"/>  
+       <mapping class="com.mob.model.FlagData"/>       
+       <mapping class="com.mob.model.employer.Employer"/>
+      	<mapping class="com.mob.model.profile.Education"/>
+      	<mapping class="com.mob.model.profile.Profile"/>   
+      	<mapping class="com.mob.model.profile.Occupation"/>
+      	<mapping class="com.mob.model.profile.Skills"/>
+      	<mapping class="com.mob.model.profile.SkillsDetails"/>
+      	<mapping class="com.mob.model.profile.JobCategory"/>
+      	<mapping class="com.mob.model.profile.Salary"/>
+      	<mapping class="com.mob.model.profile.Feedback"/>
+      	<mapping class="com.mob.model.profile.WorkTimeframe"/>
+      	<mapping class="com.mob.model.profile.JobType"/>
+      	<mapping class="com.mob.model.employer.Opportunity"/>
+      	<mapping class="com.mob.model.employer.Category"/>
+      	<mapping class="com.mob.model.profile.Training"/>
+      	<mapping class="com.mob.model.profile.Industry"/>
+      	<mapping class="com.mob.model.profile.SkillsCategory"/>
+      	<mapping class="com.mob.model.FlaggedTypes"/>
+       	<mapping class="com.mob.model.profile.PhysicalTraits"/>  
+      	<mapping class="com.mob.model.profile.EducationRequired"/>
+      	
+      	
+      	<mapping class="com.mob.model.profile.EducationDetails"/>
+      	<mapping class="com.mob.model.profile.WorkExperience"/>
+      	<mapping class="com.mob.model.profile.Training"/>
+      
+      	<mapping class="com.mob.model.profile.EmployerProfile"/>
+      	<!--  Added for contact Types By Chandrika and Jyoti -->
+      	<mapping class="com.mob.model.Contact"/>
+      	<mapping class="com.mob.model.ContactTypes"/>
+      	<mapping class="com.mob.model.employer.OpportunitySkills"/>
+      	<mapping class="com.mob.model.profile.Days"/>
+      	<mapping class="com.mob.model.profile.Item"/>
+      	<mapping class="com.mob.model.profile.BriefCase"/>
+      	<mapping class="com.mob.model.profile.BriefcaseCategory"/>
+      	<mapping class="com.mob.model.profile.SalaryType"/>
+      	
+      	<mapping class="com.mob.dto.ProfileSession"/>
+      	<mapping class="com.mob.dto.EmployerProfileSession"/>
+      	
+      	<mapping class="com.mob.model.Inbox"/>
+      	<mapping class="com.mob.model.SentBox"/>
+      	<mapping class="com.mob.model.employer.JobTypeOpportunity"/>
+      	<mapping class="com.mob.model.employer.SkillsNeeded"/>
+      	<mapping class="com.mob.model.profile.FeturedProfile"/>
+      	 	<mapping class="com.mob.model.employer.WorkHoursOpportunity"/>
+      	
+      	<mapping class="com.mob.model.PrivateItems"/>
+      	<mapping class="com.mob.model.PrivacyGroup"/>
+
+        <mapping class="com.mob.news.model.News"/>
+        
+        <mapping class="com.mob.model.group.Group"/>
+        
+        <mapping class="com.mob.model.group.Topics" />
+        <mapping class="com.mob.model.group.GroupTopics"/>
+        <mapping class="com.mob.model.group.GroupJoinUsers"/>
+        <mapping class="com.mob.model.group.GroupDiscussions"/>
+         <mapping class="com.mob.model.group.GroupAdmin"/>
+         
+         <mapping class="com.mob.browse.model.ItemCount"/>
+
+    </session-factory>
+</hibernate-configuration>

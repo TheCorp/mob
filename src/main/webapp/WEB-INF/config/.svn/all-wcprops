@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/MyOwnBriefcase/!svn/ver/4268/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/webapp/WEB-INF/config
+END
+jboss-cache-cluster.xml
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/webapp/WEB-INF/config/jboss-cache-cluster.xml
+END
+modulesMapping.properties
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/webapp/WEB-INF/config/modulesMapping.properties
+END
+clickstream-jforum.xml
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/webapp/WEB-INF/config/clickstream-jforum.xml
+END
+quartz-jforum.properties
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/webapp/WEB-INF/config/quartz-jforum.properties
+END
+SystemGlobals.properties
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MyOwnBriefcase/!svn/ver/4268/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/webapp/WEB-INF/config/SystemGlobals.properties
+END
+templatesMapping.properties
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/MyOwnBriefcase/!svn/ver/3958/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/webapp/WEB-INF/config/templatesMapping.properties
+END
+bb_config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/webapp/WEB-INF/config/bb_config.xml
+END
+jboss-cache-local.xml
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/webapp/WEB-INF/config/jboss-cache-local.xml
+END
+permissions.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/webapp/WEB-INF/config/permissions.xml
+END
+urlPattern.properties
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/webapp/WEB-INF/config/urlPattern.properties
+END

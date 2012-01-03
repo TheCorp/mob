@@ -1,0 +1,111 @@
+.helpOuterContainer {
+	width: auto;
+}
+			
+.HelpHeader {
+	background-color:#DBDBDB;
+	font-size:14px;
+	font-weight:bold;
+	padding:5px 8px;
+}
+
+.helpText {
+	background-color:#FFFFFF;
+	border:1px solid #7d7d7d;
+	display:none;
+	float:left;
+	font-size:11px;
+	margin-top:35px;
+	position:absolute;
+	z-index:1000;
+	width: 350px;
+	margin-left:-316px;
+}
+.contentSpan{
+	padding: 8px; 
+	color: #000000;	
+}
+.helpButtonWithoutOrientation {
+	padding:0px 5px;
+	cursor: help;
+}
+
+.helpButtonLeft {
+	float: left;
+	padding-left:7px;
+	padding-top:8px;
+	cursor: help;
+}
+
+.helpButtonRight {
+	float: right;
+	padding: 10px;
+	cursor: help;
+}
+
+.helpTitle {
+	color: #8B0000;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: left;
+	padding-left: 10px;
+}
+
+.helpContent {
+	padding: 12px;
+	color: #444000;
+	font-size: 12px;
+	text-align: left;
+}
+
+.helpTextForCareerJourneyLeft {
+	background-color:#CEE3F6;
+	border:4px ridge #CEE3F6;
+	display:none;
+	/*left:15%;*/
+	left: 430px;
+	position:absolute;
+	width:220px;
+	z-index:1000;
+}
+
+.helpTextForCareerJourneyRight {
+	background-color:#CEE3F6;
+	border:4px ridge #CEE3F6;
+	display:none;
+	position:absolute;
+	width:200px;
+	z-index:1000;
+	left:860px;
+}
+
+.helpTextForCareerJournalLeft {
+	background-color: #CEE3F6;
+	display: none;
+	position: absolute;
+	z-index: 1000;
+	width:191px;
+	float: left;
+	border:4px ridge #CEE3F6;
+	left:43%;
+}
+
+.helpTextForCareerJournalRight {
+	background-color:#CEE3F6;
+	border:4px ridge #CEE3F6;
+	display:none;
+	float:left;
+	position:absolute;
+	width:191px;
+	z-index:1000;
+	left:35%;
+}
+
+.closehelp {
+	color:#654321;
+	cursor:pointer;
+	float:right;
+	font-size:12px;
+	font-weight:bold;
+	padding:0 5px 5px 2px;
+}

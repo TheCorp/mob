@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/MyOwnBriefcase/!svn/ver/4583/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/browse/service
+END
+BrowseService.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MyOwnBriefcase/!svn/ver/4583/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/browse/service/BrowseService.java
+END
+EmployerSearchCriteria.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/MyOwnBriefcase/!svn/ver/4583/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/browse/service/EmployerSearchCriteria.java
+END
+GroupSearchCriteria.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/MyOwnBriefcase/!svn/ver/4583/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/browse/service/GroupSearchCriteria.java
+END
+OpportunitySearchCriteria.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/MyOwnBriefcase/!svn/ver/4583/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/browse/service/OpportunitySearchCriteria.java
+END
+EmployeeSearchCriteria.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/MyOwnBriefcase/!svn/ver/4583/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/browse/service/EmployeeSearchCriteria.java
+END

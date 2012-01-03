@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/sso
+END
+RemoteUserSSO.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/sso/RemoteUserSSO.java
+END
+LoginAuthenticator.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/sso/LoginAuthenticator.java
+END
+SSO.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/sso/SSO.java
+END
+SSOUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/sso/SSOUtils.java
+END
+DefaultLoginAuthenticator.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/sso/DefaultLoginAuthenticator.java
+END
+LDAPAuthenticator.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/sso/LDAPAuthenticator.java
+END
+CookieUserSSO.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/sso/CookieUserSSO.java
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/util/mail
+END
+ActivationKeySpammer.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/util/mail/ActivationKeySpammer.java
+END
+TopicReplySpammer.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/util/mail/TopicReplySpammer.java
+END
+PrivateMessageSpammer.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/util/mail/PrivateMessageSpammer.java
+END
+Spammer.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/util/mail/Spammer.java
+END
+ForumNewTopicSpammer.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/util/mail/ForumNewTopicSpammer.java
+END
+LostPasswordSpammer.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/util/mail/LostPasswordSpammer.java
+END
+EmailSenderTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/util/mail/EmailSenderTask.java
+END
+IdentifiableMimeMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/util/mail/IdentifiableMimeMessage.java
+END

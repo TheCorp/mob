@@ -1,0 +1,257 @@
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/MyOwnBriefcase/!svn/ver/4586/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/employer
+END
+ListEmprEmailMessagingListAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/employer/ListEmprEmailMessagingListAction.java
+END
+GetContactsForSkypeAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/MyOwnBriefcase/!svn/ver/4396/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/employer/GetContactsForSkypeAction.java
+END
+DeleteEmployerBriefcaseItemAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/employer/DeleteEmployerBriefcaseItemAction.java
+END
+ViewAllContactsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/employer/ViewAllContactsAction.java
+END
+LoadEmployerMsgInboxAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/employer/LoadEmployerMsgInboxAction.java
+END
+SendEmplrEmail.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/employer/SendEmplrEmail.java
+END
+LoadEmployerMsgOutboxAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/employer/LoadEmployerMsgOutboxAction.java
+END
+LoadEmployerBriefcaseItems.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/MyOwnBriefcase/!svn/ver/4583/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/employer/LoadEmployerBriefcaseItems.java
+END
+ChangePasswordAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/employer/ChangePasswordAction.java
+END
+LoadEmployerAccount.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/employer/LoadEmployerAccount.java
+END
+EditImageForEmployerAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/employer/EditImageForEmployerAction.java
+END
+LoadEmployerProfile.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/employer/LoadEmployerProfile.java
+END
+EditEmployerAccountAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/employer/EditEmployerAccountAction.java
+END
+CreateEmployerAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/MyOwnBriefcase/!svn/ver/4481/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/employer/CreateEmployerAction.java
+END
+EditEmployerContactsItemAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/employer/EditEmployerContactsItemAction.java
+END
+ViewingInterestedEmployeeProfileAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/employer/ViewingInterestedEmployeeProfileAction.java
+END
+ViewingBookMarkedEmployeeProfileAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/employer/ViewingBookMarkedEmployeeProfileAction.java
+END
+LoadEmployerOpprotunityAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/MyOwnBriefcase/!svn/ver/4483/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/employer/LoadEmployerOpprotunityAction.java
+END
+MarkAsUnreadEmprMsgsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/employer/MarkAsUnreadEmprMsgsAction.java
+END
+ListProfileAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/MyOwnBriefcase/!svn/ver/4583/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/employer/ListProfileAction.java
+END
+UpdateEmployerOpportunityAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/MyOwnBriefcase/!svn/ver/4336/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/employer/UpdateEmployerOpportunityAction.java
+END
+LoadEmployerOpportunitiesListAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/MyOwnBriefcase/!svn/ver/4586/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/employer/LoadEmployerOpportunitiesListAction.java
+END
+ViewInterestedEmployeeProfilesAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/employer/ViewInterestedEmployeeProfilesAction.java
+END
+EditProfileAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/employer/EditProfileAction.java
+END
+ContactEmplrValidationAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/employer/ContactEmplrValidationAction.java
+END
+DeleteEmployerRecdMsgsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/employer/DeleteEmployerRecdMsgsAction.java
+END
+ViewIndividualEmployerOpportunities.java
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/MyOwnBriefcase/!svn/ver/4505/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/employer/ViewIndividualEmployerOpportunities.java
+END
+AllEmployeeProfilesViewedOpportunityAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 178
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/employer/AllEmployeeProfilesViewedOpportunityAction.java
+END
+ViewBookMarkedEmployeeProfilesAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/employer/ViewBookMarkedEmployeeProfilesAction.java
+END
+FormEmplrValidationAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/employer/FormEmplrValidationAction.java
+END
+EmplrInboxMessageListAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/employer/EmplrInboxMessageListAction.java
+END
+DeleteEmployeerOpportunityAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/employer/DeleteEmployeerOpportunityAction.java
+END
+EmprMsgContactListAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/employer/EmprMsgContactListAction.java
+END
+DeleteProfileAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/employer/DeleteProfileAction.java
+END
+CreateProfileAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/MyOwnBriefcase/!svn/ver/4583/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/employer/CreateProfileAction.java
+END
+MessageEmprReplyInboxAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/employer/MessageEmprReplyInboxAction.java
+END
+DeleteEmprSentMessageAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/employer/DeleteEmprSentMessageAction.java
+END
+EditEmployerBriefcaseItemAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/MyOwnBriefcase/!svn/ver/3894/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/employer/EditEmployerBriefcaseItemAction.java
+END
+SendEmprEmailAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/MyOwnBriefcase/!svn/ver/4081/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/employer/SendEmprEmailAction.java
+END
+AddEmployerBriefcaseItemAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/MyOwnBriefcase/!svn/ver/3894/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/employer/AddEmployerBriefcaseItemAction.java
+END
+DeleteEmployerContactAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/employer/DeleteEmployerContactAction.java
+END
+CreateOpportunityAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/MyOwnBriefcase/!svn/ver/4583/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/employer/CreateOpportunityAction.java
+END

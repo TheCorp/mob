@@ -1,0 +1,3 @@
+<%@ page language="java" pageEncoding="UTF-8" contentType="application/json"%>
+<%@ taglib uri="/struts-tags" prefix="s"%>
+{"result":"success","days":[<s:iterator value="daysNews" status="row">"<s:property/>"<s:if test="!#row.last">,</s:if></s:iterator>],"daybefore":[<s:iterator value="dayBeforesNews" status="row">"<s:property/>"<s:if test="!#row.last">,</s:if></s:iterator>],"weeks":[<s:iterator value="weeksNews" status="row">"<s:property/>"<s:if test="!#row.last">,</s:if></s:iterator>],"months":[<s:iterator value="monthsNews" status="row">"<s:property/>"<s:if test="!#row.last">,</s:if></s:iterator>],"years":[<s:iterator value="yearsNews" status="row">"<s:property/>"<s:if test="!#row.last">,</s:if></s:iterator>]}

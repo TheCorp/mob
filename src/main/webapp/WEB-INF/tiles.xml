@@ -1,0 +1,1088 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://jakarta.apache.org/struts/dtds/tiles-config_2_0.dtd">
+<!--suppress ALL -->
+<tiles-definitions>
+    <definition name="mob.default" template="/layout/layout.jsp">
+        <put-attribute name="title" value="Welcome to MyOwnBriefcase"/>
+        <put-attribute name="nav" type="template" value="/navigation/home.jsp"/>
+        <put-attribute name="header" type="template" value="/common/header.jsp"/>
+        <put-attribute name="footer" type="template" value="/common/footer.jsp"/>
+
+    </definition>
+      <definition name="mob.default1" template="/layout/layout.jsp">
+        <put-attribute name="title" value="Welcome to MyOwnBriefcase"/>
+        <put-attribute name="nav" type="template" value="/navigation/home.jsp"/>
+        <put-attribute name="header" type="template" value="/common/header.jsp"/>
+        <put-attribute name="footer" type="template" value="/common/footerAbout.jsp"/>
+
+    </definition>
+    
+    <definition name="mob.error" extends="mob.default">
+		<put-attribute name="title" value="My Own Briefcase - Login" />
+		<put-attribute name="nav" type="template" value="/navigation/home.jsp"/> 
+		<put-attribute name="body" type="template" value="/error.jsp" />
+		<put-attribute name="header" type="template" value="/common/loginheader.jsp"/>
+	</definition>
+
+    <definition name="mob.underconstruction" extends="mob.default">
+		<put-attribute name="title" value="Under Construction" />
+		<put-attribute name="nav" type="template" value="/navigation/home.jsp"/>
+		<put-attribute name="body" type="template" value="/error.jsp" />
+
+	</definition>
+
+    <!-- added for landing page on 29-08 -->
+	<definition name="mob.landingpage" extends="mob.default">
+		<put-attribute name="title" value="My Own Briefcase - Login" />
+		<put-attribute name="nav" type="template" value="/navigation/home.jsp"/>
+		<put-attribute name="body" type="template" value="/common/landingPage.jsp" />
+		<put-attribute name="header" type="template" value="/common/loginheader.jsp"/>
+	</definition>
+	
+	<definition name="mob.authenticatedUserlandingpage" extends="mob.default">
+		<put-attribute name="title" value="Welcome to MyOwnBriefcase" />
+		<put-attribute name="nav" type="template" value="/navigation/home.jsp"/>
+		<put-attribute name="body" type="template" value="/common/authenticatedUserLandingPage.jsp" />
+		<put-attribute name="header" type="template" value="/common/loginheader.jsp"/>
+	</definition>
+	
+	<definition name="mob.siteMap" extends="mob.default">
+		<put-attribute name="title" value="My Own Briefcase - Login" />
+		<put-attribute name="nav" type="template" value="/navigation/home.jsp"/>
+		<put-attribute name="body" type="template" value="/common/siteMap.jsp" />
+		<put-attribute name="header" type="template" value="/common/loginheader.jsp"/>
+	</definition>
+	
+	<definition name="mob.recruiters" extends="mob.default">
+		<put-attribute name="title" value="My Own Briefcase - Login" />
+		<put-attribute name="nav" type="template" value="/navigation/home.jsp"/>
+		<put-attribute name="body" type="template" value="/common/recruiters.jsp" />
+		<put-attribute name="header" type="template" value="/common/loginheader.jsp"/>
+	</definition>
+	<definition name="mob.signup" extends="mob.default">
+		<put-attribute name="title" value="My Own Briefcase -Signup" />
+		<put-attribute name="nav" type="template" value="/navigation/home.jsp"/>
+		<put-attribute name="body" type="template"
+			value="/common/signupPage.jsp" />
+	</definition>
+	<definition name="mob.chooseaccounttype" extends="mob.default">
+		<put-attribute name="title" value="My Own Briefcase -Signup" />
+		<put-attribute name="nav" type="template" value="/navigation/home.jsp"/>
+		<put-attribute name="body" type="template"
+			value="/common/chooseAccountType.jsp" />
+	</definition>
+	
+	
+	<!-- added ends here -->
+     <definition name="mob.login" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - Login"/>
+        <put-attribute name="nav" type="template" value="/navigation/home.jsp"/>
+        <put-attribute name="body" type="template" value="/common/login.jsp"/>
+    </definition>
+    <!-- Added for redirect to landing page -->
+    <definition name="loginFailed" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - Login"/>
+        <put-attribute name="nav" type="template" value="/navigation/home.jsp"/>
+        <put-attribute name="body" type="template" value="/common/landingPage.jsp"/>
+         <put-attribute name="header" type="template" value="/common/invalidUserheader.jsp"/>
+    </definition>
+    <definition name="mob.home" extends="mob.default">
+        <put-attribute name="title" value="Welcome to MyOwnBriefcase"/>
+        <put-attribute name="nav" type="template" value="/navigation/home.jsp"/>
+        <put-attribute name="body" type="template" value="/common/login.jsp"/>
+    </definition>
+    <definition name="welcome" extends="mob.default">
+        <put-attribute name="title" value="Welcome to MyOwnBriefcase"/>
+        <put-attribute name="nav" type="template" value="/navigation/home.jsp"/>
+        <put-attribute name="body" type="template" value="/common/mob.landingpage.jsp" />
+    </definition>
+    
+    <definition name="Briefcase" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Briefcase"/>
+        <put-attribute name="nav" type="template" value="/navigation/briefcase.jsp"/>
+        <put-attribute name="body" type="template" value="/common/briefCase.jsp" />
+    </definition>
+    <!-- Added For viewBriefcaseitems -->
+    
+    <definition name="viewBriefcaseFromSearch" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase -View Briefcase"/>
+        <put-attribute name="nav" type="template" value="/navigation/briefcase.jsp"/>
+        <put-attribute name="body" type="template" value="/common/viewBriefCaseItemsFromSearch.jsp" />
+    </definition>
+    
+    
+    
+    <definition name="viewBriefcasePhotsFromSearch" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - View Briefcase Photos"/>
+        <put-attribute name="nav" type="template" value="/navigation/briefcase.jsp"/>
+        <put-attribute name="body" type="template" value="/common/viewEmployeeBreifcasePhotos.jsp" />
+    </definition>
+    
+    <definition name="viewBriefcaseAudioFromSearch" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - View Briefcase Audio"/>
+        <put-attribute name="nav" type="template" value="/navigation/briefcase.jsp"/>
+        <put-attribute name="body" type="template" value="/common/viewEmployeeBreifcaseAudio.jsp" />
+    </definition>
+    
+     <definition name="viewBriefcaseContacts" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - View Briefcase Contacts"/>
+        <put-attribute name="nav" type="template" value="/navigation/briefcase.jsp"/>
+        <put-attribute name="body" type="template" value="/common/viewEmployeeBreifcaseContacts.jsp" />
+    </definition>
+    
+    
+    
+    <definition name="password" extends="mob.default">
+        <put-attribute name="title" value="Welcome1 to MyOwnBriefcase"/>
+        <put-attribute name="nav" type="template" value="/navigation/home.jsp"/>
+        <put-attribute name="body" type="template" value="/common/mailInfo.jsp" />
+    </definition>
+    <!-- added for implementing the forgot password functionality -->
+     <definition name="mob.forgotPassword" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - Forgot Password "/>
+        <put-attribute name="nav" type="template" value="/navigation/home.jsp"/>
+        <put-attribute name="body" type="template" value="/common/forgotPassword.jsp" />
+    </definition>
+   
+   
+	<definition name="upload" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - Upload"/>
+        <put-attribute name="nav" type="template" value="/navigation/home.jsp"/>>
+        <put-attribute name="body" type="template" value="/common/upload.jsp" />
+    </definition>
+    <definition name="showupload" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - Upload"/>
+        <put-attribute name="nav" type="template" value="/navigation/home.jsp"/>
+        <put-attribute name="body" type="template" value="/common/showupload.jsp" />
+    </definition>
+    
+      <!-- employee module begins here -->
+    
+    <definition name="mob.employee.signup" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - Signup"/>
+        <put-attribute name="nav" type="template" value="/navigation/home.jsp"/>
+        <put-attribute name="body" type="template" value="/public/employeesignup.jsp"/>
+    </definition>
+    
+    <definition name="employee_signup_validation" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - Signup"/>
+        <put-attribute name="nav" type="template" value="/navigation/home.jsp"/>
+        <put-attribute name="body" type="template" value="/public/employeesignup.jsp"/>
+    </definition>
+    
+   <definition name="Employee_Success" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - Upload"/>
+       <put-attribute name="nav" type="template" value="/navigation/home.jsp"/>
+        <put-attribute name="body" type="template" value="/employee/addProfile.jsp"/>
+    </definition> 
+  
+                           <!-- Add Employee Profile -->
+    
+    <definition name="mob.employeeProfile" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - Create Your Profile"/>
+        <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/employee/addProfile.jsp"/>
+    </definition>
+    
+    <!-- For  listing profiles -->
+     <definition name="mob.employee.profile.created.next" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - Create Your Profile"/>
+         <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/common/welcome.jsp"/>
+    </definition>
+     <!-- End for  listing profiles -->
+    
+    <definition name="mob.employee.profile.next.page" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase -Create Your Education Details"/>
+        <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/employee/addProfileEducation.jsp"/>
+    </definition>
+    
+    <definition name="mob.AddProfile1" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase -Create Your Education Details"/>
+        <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/employee/addProfileEducation.jsp"/>
+    </definition>
+    <!-- Added for education page -->
+    <definition name="mob.employee.profile.education.next.page" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - Create Your Skills Details"/>
+        <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/employee/addProfileSkills.jsp"/>
+    </definition>                         
+                          <!-- End of Add Profile -->
+                          
+                          <!-- List Profiles -->
+                          
+    <definition name="mob.employeeProfileList" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Profiles"/>
+        <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/employee/listProfile.jsp"/>
+    </definition>
+   
+                          <!--End of List Profiles -->
+                          
+                          <!-- View Profile -->
+    <definition name="mob.emplyeeProfileView" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - ViewProfile"/>
+        <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/employee/viewProfile.jsp"/>
+    </definition>
+                          
+                          <!-- End of View Profile -->
+ 
+     <definition name="mob.EditEmployeeAccount" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - EditProfile"/>
+         <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/employee/editEmployeeAccount.jsp"/>
+    </definition>
+    
+    
+    
+    
+   
+    
+                           <!-- employee module ends here -->   
+                           
+    
+
+    <!-- Added on july 16-07-08 for Employer module -->
+    <definition name="mob.employer.signup" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - SignUp"/>
+        <put-attribute name="nav" type="template" value="/navigation/home.jsp"/>
+        <put-attribute name="body" type="template" value="/public/employersignup.jsp"/>
+    </definition>
+    
+    <definition name="mob.employer.created" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - SignUp"/>
+        <put-attribute name="nav" type="template" value="/navigation/home.jsp"/>
+        <put-attribute name="body" type="template" value="/common/login.jsp"/>
+    </definition>
+    
+    <!-- Added on july 18-07-08 for creating profile view for Employer module -->
+    <definition name="mob.EmployerProfile" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Profile -Create Your Profile"/>
+        <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/employer/employerprofiledetails.jsp"/>
+    </definition>
+   
+    <definition name="mob.Employer_Success" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Profile-View Profile"/>
+        <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/employer/employerCompanyProfile.jsp"/>
+    </definition>
+    
+    <definition name="mob.Profile_Success" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Profile-Edit Profile"/>
+        <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/employer/editemployerprofile.jsp"/>
+    </definition>
+    
+    <definition name="mob.EditEmployerProfile" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Profile-Edit Profile"/>
+        <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/employer/editemployerprofile.jsp"/>
+    </definition>
+    
+    <definition name="mob.ListView_Success" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Profile"/>
+        <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/employer/listemployerprofile.jsp"/>
+    </definition>
+   
+    <definition name="mob.EditAccount" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - Edit Account"/>
+        <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/employer/editEmployerAccount.jsp"/>
+    </definition>
+   
+   <definition name="mob.EmployerOpportunity" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Opportunities"/>
+       <put-attribute name="nav" type="template" value="/navigation/opportunities.jsp"/>
+        <put-attribute name="body" type="template" value="/employer/addOpportunityDetail.jsp"/>
+    </definition>
+
+    
+     <definition name="mob.employer.group" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Groups"/>
+         <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/employer/employerGroups.jsp" />
+    </definition>
+  
+ 	
+	<definition name="mob.contacts" extends="mob.default">
+		<put-attribute name="title" value="My Own Briefcase - My Profile - View" />
+        <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/employee/myContact.jsp" />
+	</definition>
+ 	
+	
+    <definition name="mob.employee.Contact.created" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Contacts"/>
+        <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+          <put-attribute name="body" type="template" value="/employee/myContact.jsp"/>
+    </definition>
+    
+    <definition name="mob.employee.noOfContacts" extends="mob.default">
+        <put-attribute name="title" value="Total No. of Contacts"/>
+        <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/employee/totalNoOfContacts.jsp"/>
+    </definition>
+   
+      
+     <definition name="mob.employee.loadProfile" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Profiles"/>
+         <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/employee/editProfile.jsp"/>
+    </definition>
+    
+    <definition name="mob.editEmployee.education.profile.next.page" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Profiles- Edit My Profile"/>
+        <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/employee/editProfileEducation.jsp"/>
+    </definition>
+    <definition name="mob.editEmployee.profile.next.skills.page" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Profiles- Edit Eduction Details"/>
+        <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/employee/nextEditProfile.jsp"/>
+    </definition>
+    
+     <definition name="mob.employee.profile.edit.next" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Profiles"/>
+         <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/employee/listProfile.jsp"/>
+    </definition>
+    
+    <definition name="mob.loadEmployerOpprotunity" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Opportunities"/>
+        <put-attribute name="nav" type="template" value="/navigation/opportunities.jsp"/>
+        <put-attribute name="body" type="template" value="/employer/editOpportunityDetail.jsp"/>
+    </definition>
+
+     <definition name="mob.loadAllEmployerOpprotunity" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Opportunities"/>
+         <put-attribute name="nav" type="template" value="/navigation/opportunities.jsp"/>
+        <put-attribute name="body" type="template" value="/employer/opportunities/allOpportunities.jsp"/>
+    </definition>
+
+    <definition name="mob.loadAllApplicants" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - List of Applied Opportunities"/>
+        <put-attribute name="nav" type="template" value="/navigation/opportunities.jsp"/>
+        <put-attribute name="body" type="template" value="/employer/opportunities/applicants.jsp"/>
+    </definition>
+
+    <definition name="mob.loadAllBookmarkers" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - List of Interested Opportunities"/>
+        <put-attribute name="nav" type="template" value="/navigation/opportunities.jsp"/>
+        <put-attribute name="body" type="template" value="/employer/opportunities/interested.jsp"/>
+    </definition>
+
+     <definition name="mob.editOpportunity" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Opportunities"/>
+         <put-attribute name="nav" type="template" value="/navigation/opportunities.jsp"/>
+        <put-attribute name="body" type="template" value="/employer/listOpportunities.jsp"/>
+    </definition>
+    
+     <definition name="mob.editEmployerOpportunity" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - Edit Opportunities"/>
+         <put-attribute name="nav" type="template" value="/navigation/opportunities.jsp"/>
+        <put-attribute name="body" type="template" value="/employer/editOpportunityDetail.jsp"/>
+    </definition>
+   
+    <definition name="mob.employee.profile.created.next.displayListOfProfiles" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Profiles"/>
+        <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/employee/redirect.jsp"/>
+    </definition> 
+    
+    <definition name="mob.employer.viewcompanyProfile" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Profiles"/>
+        <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/employer/employerCompanyProfile.jsp"/>
+    </definition> 
+    
+    <definition name="mob.listProfiles" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Profiles"/>
+        <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/employee/listProfile.jsp"/>
+    </definition> 
+    
+    
+    <definition name="mob.employerBriefcase" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My BriefCase"/>
+        <put-attribute name="nav" type="template" value="/navigation/briefcase.jsp"/>
+        <put-attribute name="body" type="template" value="/common/employerBriefCase.jsp" />
+    </definition>
+    
+    
+    <definition name="createjobSearch" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - Search Opportunities"/>
+        <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/employee/createJobSearch.jsp" />
+    </definition>
+    
+     <definition name="viewOpportunity" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - View Opportunities"/>
+         <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/employee/viewOpportunity.jsp"/>
+    </definition>
+     <definition name="messagingInbox" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Inbox"/>
+         <put-attribute name="nav" type="template" value="/navigation/inbox.jsp"/>
+        <put-attribute name="body" type="template" value="/employee/messageInboxEmployee.jsp"/>
+    </definition>
+    <definition name="messagingOutbox" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Outbox"/>
+        <put-attribute name="nav" type="template" value="/navigation/inbox.jsp"/>
+        <put-attribute name="body" type="template" value="/employee/messageOutboxEmployee.jsp"/>
+    </definition>
+    <definition name="composeMessage" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - Compose New Message"/>
+        <put-attribute name="nav" type="template" value="/navigation/inbox.jsp"/>
+        <put-attribute name="body" type="template" value="/employee/messageComposeEmployee.jsp"/>
+    </definition>
+    <!-- privacy settings -->
+    <definition name="privacy" extends="mob.default">
+        <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/employee/privacy_settings.jsp"/>
+    </definition>
+    
+    <definition name="privacy_sucess" extends="mob.default">
+        <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/employee/privacy_settings_sucess.jsp"/>
+    </definition>
+    <!-- privacyGroup -->
+     <definition name="privacyGroup" extends="mob.default">
+         <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/employee/privacyGroup.jsp"/>
+    </definition>
+
+	 <definition name="privacySettingForEmployer" extends="mob.default">
+         <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/employer/privacySettingsForEmployer.jsp"/>
+    </definition>
+    
+    <definition name="privacySettings_sucessForEmployer" extends="mob.default">
+         <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/employer/privacySettings_sucess_ForEmployer.jsp"/>
+    </definition>
+    <definition name="privacyGroupForEmployer" extends="mob.default">
+        <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/employer/privacyGroupForEmployer.jsp"/>
+    </definition>
+    
+    <!-- viewEmployeeProfileDetails 
+    <definition name="viewEmployeeProfileDetails" extends="mob.default">        
+        <put-attribute name="body" type="template" value="/employee/viewEmployeeProfileDetails.jsp"/>
+    </definition>
+-->
+    <!-- Added for search functionality -->
+    <definition name="mob.searchForEmployees" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - Search For Employees"/>
+        <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/common/searchEmployeeResult.jsp"/>
+    </definition>
+   
+    <definition name="mob.searchEmployers" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - Search For Employers"/>
+        <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/common/searchEmployers.jsp"/>
+    </definition>
+   
+    
+    <definition name="mob.AdvancedSearch" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - Search For Employers"/>
+        <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/common/advancedEmployerSearch.jsp"/>
+    </definition>
+    
+     <definition name="mob.searchForEmployersProfileList" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - Search For Employers"/>
+         <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/common/employerProfile.jsp"/>
+    </definition>
+    
+    <definition name="mob.searchForOpportunities" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - Search For Opportunities"/>
+        <put-attribute name="nav" type="template" value="/navigation/opportunities.jsp"/>
+        <put-attribute name="body" type="template" value="/common/searchOpportunities.jsp"/>
+    </definition>
+    <!-- for group serach added by satya -->
+    
+      <definition name="mob.searchGroups" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - Search For Grops"/>
+        <put-attribute name="nav" type="template" value="/navigation/opportunities.jsp"/>
+        <put-attribute name="body" type="template" value="/common/searchGroupResult.jsp"/>
+    </definition>
+    
+    <definition name="mob.AdvancedOpportunitySearch" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - Search For Opportunities"/>
+        <put-attribute name="nav" type="template" value="/navigation/opportunities.jsp"/>
+        <put-attribute name="body" type="template" value="/common/searchOpportunitiesResult.jsp"/>
+    </definition>
+    
+    <definition name="mob.searchOpportunitiesResult" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - Search For Opportunities"/>
+        <put-attribute name="nav" type="template" value="/navigation/opportunities.jsp"/>
+        <put-attribute name="body" type="template" value="/common/searchOpportunitiesResult.jsp"/>
+    </definition>
+    
+     <definition name="mob.viewOpportunityFromSearch" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - View Opportunity"/>
+         <put-attribute name="nav" type="template" value="/navigation/opportunities.jsp"/>
+        <put-attribute name="body" type="template" value="/common/viewOpportunityFromSearch.jsp"/>
+    </definition>
+    
+    
+    
+    <definition name="viewingEmployerProfileFromSearch" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - View Employer Profile"/>
+        <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/common/viewEmployerProfileFromSearch.jsp"/>
+    </definition>
+   
+    <definition name="mob.viewingEmployerProfileFromSearch" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - View Employer Profile"/>
+        <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/common/viewingEmployerProfileFromSearch.jsp"/>
+    </definition>
+    <!--  
+    <definition name="mob.viewingEmployeeProfileDetailsFromSearch" extends="mob.default">
+        <put-attribute name="title" value="View Employee Profile Deatails"/>
+        <put-attribute name="body" type="template" value="/common/viewingEmployeeProfileDetailsFromSearch.jsp"/>
+    </definition>
+    -->
+     <!-- End of search functionality -->
+     
+      <definition name="mob.interestedEmployeesListOfProfiles" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - Interested Employees List Of Profiles"/>
+          <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/employer/interestedEmployeesProfiles.jsp"/>
+    </definition>
+     
+     <definition name="mob.viewingInterestedEmployeeProfile" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - View Interested Employee Profile"/>
+         <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/employer/viewingInterestedEmployeeProfile.jsp"/>
+    </definition>
+    
+    
+    <definition name="mob.bookMarkedEmployeeProfiles" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - BookMarked Employees List Of Profile"/>
+        <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/employer/bookMarkedEmployeeProfiles.jsp"/>
+    </definition>
+    
+    
+    <definition name="mob.viewingBookMarkedEmployeeProfile" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - View BookMarked Employee Profile"/>
+        <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/employer/viewingBookMarkedEmployeeProfile.jsp"/>
+    </definition>
+    
+  
+      <!--   Emial  Info-->
+     <definition name="sendUserMail" extends="mob.default">
+        <put-attribute name="title" value="Welcome to MyOwnBriefcase"/>
+         <put-attribute name="nav" type="template" value="/navigation/inbox.jsp"/>
+        <put-attribute name="body" type="template" value="/employee/sendEmailInfo.jsp" />
+    </definition>
+    <!-- End of  Emial  Info -->
+     <!--   Emial  Info For Employer -->
+     
+     <definition name="messagingInboxEmployer" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Inbox"/>
+         <put-attribute name="nav" type="template" value="/navigation/inbox.jsp"/>
+        <put-attribute name="body" type="template" value="/employer/messageInboxEmployer.jsp"/>
+    </definition>
+    <definition name="messagingOutboxEmployer" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Inbox"/>
+        <put-attribute name="nav" type="template" value="/navigation/inbox.jsp"/>
+        <put-attribute name="body" type="template" value="/employer/messageOutboxEmployer.jsp"/>
+    </definition>
+    <definition name="composeMessageEmployer" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Inbox - Compose Message"/>
+        <put-attribute name="nav" type="template" value="/navigation/inbox.jsp"/>
+        <put-attribute name="body" type="template" value="/employer/messageComposeEmployer.jsp"/>
+    </definition>
+    
+   <definition name="sendEmployerMail" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Inbox"/>
+       <put-attribute name="nav" type="template" value="/navigation/inbox.jsp"/>
+        <put-attribute name="body" type="template" value="/employer/sendEmprEmailInfo.jsp" />
+    </definition>
+    <definition name="mob.msgRead" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Inbox - Message Read"/>
+        <put-attribute name="nav" type="template" value="/navigation/inbox.jsp"/>
+        <put-attribute name="body" type="template" value="/employee/messagereadInboxEmployee.jsp" />
+    </definition>
+    <definition name="composeMessageReply" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Inbox - Message Reply"/>
+        <put-attribute name="nav" type="template" value="/navigation/inbox.jsp"/>
+        <put-attribute name="body" type="template" value="/employee/messageReplyComposeEmployee.jsp" />
+    </definition>
+   
+   <definition name="mob.outboxmsgRead" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Inbox - View Sent Messages"/>
+       <put-attribute name="nav" type="template" value="/navigation/inbox.jsp"/>
+        <put-attribute name="body" type="template" value="/employee/messageReadOutboxEmployee.jsp" />
+    </definition>
+    
+     <definition name="composeOutboxMsgReply" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Inbox - Reply Sent Messages"/>
+         <put-attribute name="nav" type="template" value="/navigation/inbox.jsp"/>
+        <put-attribute name="body" type="template" value="/employee/messageReplyOutboxComposeEmp.jsp" />
+    </definition>
+    <definition name="emprInboxMsgRead" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Inbox - View Received Messages"/>
+        <put-attribute name="nav" type="template" value="/navigation/inbox.jsp"/>
+        <put-attribute name="body" type="template" value="/employer/messageReadInboxEmployer.jsp" />
+    </definition>
+    
+     <definition name="composeEmprInboxMsgReply" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Inbox - Reply To Viewed Messages"/>
+         <put-attribute name="nav" type="template" value="/navigation/inbox.jsp"/>
+        <put-attribute name="body" type="template" value="/employer/messageComposeReplyInboxEmpr.jsp" />
+    </definition>
+    
+     <definition name="emprOutboxMsgRead" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Inbox - View Sent Messages"/>
+         <put-attribute name="nav" type="template" value="/navigation/inbox.jsp"/>
+        <put-attribute name="body" type="template" value="/employer/messageReadOutboxEmployer.jsp" />
+    </definition>
+    
+     <definition name="composeEmprOutboxMsgReply" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Inbox - Reply To Viewed Messages"/>
+         <put-attribute name="nav" type="template" value="/navigation/inbox.jsp"/>
+        <put-attribute name="body" type="template" value="/employer/messageComposeReplyOutboxEmpr.jsp" />
+    </definition>
+    
+   
+   
+   
+        <!-- End Emial  Info For Employer -->
+        
+     <definition name="listOfEmployeeFeedbacks" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - List Of Feedbacks"/>
+         <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/employee/listOfEmployeeFeedbacks.jsp" />
+    </definition>
+    
+     <definition name="listOfEmployeeFeedbacksFromEmployerSearch" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - List Of Feedbacks"/>
+         <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/common/listOfEmployeeFeedbacksFromSearch.jsp" />
+    </definition>
+    
+    
+     <definition name="mob.employeeSkypeChat" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Briefcase - Skype Chat"/>
+         <put-attribute name="nav" type="template" value="/navigation/briefcase.jsp"/>
+        <put-attribute name="body" type="template" value="/employee/skypeChatPage.jsp" />
+    </definition>
+    
+    
+    <definition name="mob.employeeBreifcasePhotos" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Briefcase - Photos"/>
+         <put-attribute name="nav" type="template" value="/navigation/briefcase.jsp"/>
+        <put-attribute name="body" type="template" value="/employee/employeeBreifcasePhotos.jsp" />
+    </definition>
+    
+    <definition name="mob.employeeBreifcaseAudio" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Briefcase - Audio/Video"/>
+         <put-attribute name="nav" type="template" value="/navigation/briefcase.jsp"/>
+        <put-attribute name="body" type="template" value="/employee/employeeBreifcaseAudio.jsp" />
+    </definition>
+    
+      <definition name="mob.briefcaseContacts" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Briefcase - Contacts"/>
+           <put-attribute name="nav" type="template" value="/navigation/briefcase.jsp"/>
+        <put-attribute name="body" type="template" value="/employee/briefcaseContacts.jsp" />
+    </definition>
+    
+     <definition name="mob.employerBreifcasePhotos" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Briefcase - Photos"/>
+          <put-attribute name="nav" type="template" value="/navigation/briefcase.jsp"/>
+        <put-attribute name="body" type="template" value="/employer/employerBreifcasePhotos.jsp" />
+    </definition>
+    
+    <definition name="mob.employerBreifcaseAudio" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Briefcase - Audio/Video"/>
+         <put-attribute name="nav" type="template" value="/navigation/briefcase.jsp"/>
+        <put-attribute name="body" type="template" value="/employer/employerBreifcaseAudio.jsp" />
+    </definition>
+    
+    <definition name="mob.employerBriefcaseContacts" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Briefcase - Contacts"/>
+         <put-attribute name="nav" type="template" value="/navigation/briefcase.jsp"/>
+        <put-attribute name="body" type="template" value="/employer/employerBriefcaseContacts.jsp" />
+    </definition>
+    
+    <definition name="mob.employerSkypeChat" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Briefcase - Skype Chat"/>
+         <put-attribute name="nav" type="template" value="/navigation/briefcase.jsp"/>
+        <put-attribute name="body" type="template" value="/employer/skypeChatPageForEmployer.jsp" />
+    </definition>
+   
+   <definition name="mob.searchForEmployeesFromEmployee" extends="mob.default">
+        <put-attribute name="title" value="Search For Employees"/>
+        <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/common/searchEmployeeResultFromEmployee1.jsp" />
+    </definition>
+    
+    <definition name="mob.advancedEmployeeSearchFromEmployee" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - Search For Employees"/>
+        <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/common/searchEmployeesFromEmployeeSearch.jsp"/>
+    </definition>
+   
+    <definition name="mob.viewingEmployeeProfileFromEmployeeSearch" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - View Employee Profile"/>
+        <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/common/viewingEmployeeProfileFromEmployeeSearch.jsp"/>
+    </definition>
+    
+     <definition name="mob.viewFeaturedProfile" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - View Employee Profile"/>     
+       <put-attribute name="nav" type="template" value="/navigation/featuredprofile.jsp"/>  
+        <put-attribute name="body" type="template" value="/public/viewFeaturedProfile.jsp"/>
+    </definition>
+    
+    
+    <definition name="mob.viewEmployerBriefcaseDocsFromSearch" extends="mob.default">
+        <put-attribute name="title" value="View Employer Briefcase"/>
+        <put-attribute name="nav" type="template" value="/navigation/briefcase.jsp"/>
+        <put-attribute name="body" type="template" value="/common/employerBriefcaseDocumentsFromSearch.jsp"/>
+    </definition>
+    
+    <definition name="mob.employerBreifcaseAudioFromSearch" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - View Employer Briefcase"/>
+        <put-attribute name="nav" type="template" value="/navigation/briefcase.jsp"/>
+        <put-attribute name="body" type="template" value="/common/employerBreifcaseAudioFromSearch.jsp"/>
+    </definition>
+    <definition name="mob.employerBreifcasePhotosFromSearch" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - View Employer Briefcase"/>
+        <put-attribute name="nav" type="template" value="/navigation/briefcase.jsp"/>
+        <put-attribute name="body" type="template" value="/common/employerBreifcasePhotosFromSearch.jsp"/>
+    </definition>
+    
+    <definition name="mob.employerBreifcaseContactsFromSearch" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - View Employer Contacts"/>
+        <put-attribute name="nav" type="template" value="/navigation/briefcase.jsp"/>
+        <put-attribute name="body" type="template" value="/common/employerBriefcaseContactsFromSearch.jsp"/>
+    </definition>
+    
+    <definition name="mob.employerBreifcaseURLsFromSearch" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - View Employer URLs"/>
+        <put-attribute name="nav" type="template" value="/navigation/briefcase.jsp"/>
+        <put-attribute name="body" type="template" value="/common/employerBreifcaseURLFromSearch.jsp"/>
+       
+    </definition>
+    
+     <definition name="msgingInboxSuccess" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Inbox"/>
+         <put-attribute name="nav" type="template" value="/navigation/inbox.jsp"/>
+        <put-attribute name="body" type="template" value="/employee/messageSuccessInboxEmployee.jsp"/>
+    </definition>
+    <definition name="msgingInboxFailure" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Inbox"/>
+        <put-attribute name="nav" type="template" value="/navigation/inbox.jsp"/>
+        <put-attribute name="body" type="template" value="/employee/messageFailureInboxEmployee.jsp"/>
+    </definition>
+    
+    <definition name="msgingEmprInboxSuccess" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Inbox "/>
+        <put-attribute name="nav" type="template" value="/navigation/inbox.jsp"/>
+        <put-attribute name="body" type="template" value="/employer/messageSuccessInboxEmployer.jsp"/>
+    </definition>
+    
+     <definition name="msgingEmprInboxFailure" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Inbox"/>
+         <put-attribute name="nav" type="template" value="/navigation/inbox.jsp"/>
+        <put-attribute name="body" type="template" value="/employer/messageFailureInboxEmployer.jsp"/>
+    </definition>
+    
+    <definition name="appliedPosition" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Opportunities"/>
+        <put-attribute name="nav" type="template" value="/navigation/opportunities.jsp"/>
+        <put-attribute name="body" type="template" value="/employee/appliedPositionsOpportunitiesList.jsp"/>
+    </definition>
+    
+    <definition name="markAsFavorite" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Opportunities"/>
+       <put-attribute name="nav" type="template" value="/navigation/opportunities.jsp"/>
+        <put-attribute name="body" type="template" value="/employee/markAsFavoriteOpportunitiesList.jsp"/>
+    </definition>
+    
+    <!-- mob.viewEmployeeProfileDetails -->
+    
+     <definition name="mob.viewEmployeeProfileDetails" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Profile - View"/>
+         <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/employee/viewProfileDetailsForEmployee.jsp"/>
+    </definition>
+   
+    <definition name="mob.viewingEmployeeProfileDetailsFromEmployeeSearch" extends="mob.default">
+        <put-attribute name="title" value="View All Employee Profile Feedbacks"/>
+        <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/common/viewEmployeeProfileDetailsFromSearch.jsp"/>
+    </definition>
+    
+    <definition name="mob.viewFeaturedProfileDetails" extends="mob.default">
+        <put-attribute name="title" value="View All Employee Profile Feedbacks"/>
+        <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/common/viewFeaturedProfileDetails.jsp"/>
+    </definition>
+    
+    
+   
+    <definition name="mob.viewEmprProfile" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Profiles"/>
+        <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/common/viewemployerprofile.jsp"/>
+    </definition>
+    <definition name="listOfEmployerFeedbacks" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - List Of Feedbacks"/>
+        <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/common/listOfEmployerFeedbacks.jsp" />
+    </definition>
+    
+    <definition name="mob.editEmployeeProfileDetails" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - Edit Employee Profile"/>
+        <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/employee/editEmployeeProfileDetails.jsp" />
+    </definition>
+   
+   <definition name="mob.employerListOfProfiles" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - List of Employer Profile"/>
+       <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/employer/employerListOfProfiles.jsp" />
+    </definition>
+    
+     <definition name="mob.viewEmployerProfile" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - View of Employer Profile"/>
+         <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/employer/viewEmployerProfile.jsp" />
+    </definition>
+    <definition name="mob.viewEmployerProfileFromSearch" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - View Employer Profile From Search"/>
+        <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/common/viewemployerprofile.jsp" />
+    </definition>
+
+    <definition name="mob.employerEmptyProfilesForBriefcase" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - Employer Profiles"/>
+        <put-attribute name="nav" type="template" value="/navigation/briefcase.jsp"/>
+        <put-attribute name="body" type="template" value="/common/userEmptyProfiles.jsp" />
+    </definition>
+
+    <definition name="mob.employerEmptyProfiles" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - Employer Profiles"/>
+        <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/common/userEmptyProfiles.jsp" />
+    </definition>
+    
+    <definition name="mob.viewEmployerOwnOpportunities" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - Employer Opportunities view"/>
+        <put-attribute name="nav" type="template" value="/navigation/opportunities.jsp"/>
+        <put-attribute name="body" type="template" value="/employer/viewEmployerIndividualOpportunity.jsp" />
+    </definition>
+    
+    <!--  Edit Employer accont -->
+    
+     <definition name="mob.editEmployerAccountdetails" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - Employer Opportunities view"/>
+        <put-attribute name="nav" type="template" value="/navigation/profile.jsp"/>
+        <put-attribute name="body" type="template" value="/employer/editEmployerAccountDetails.jsp" />
+    </definition>
+    
+    <!-- End of edit Employer account details  -->
+    
+    <definition name="mob.admin" template="/layout/adminLayout.jsp">
+     	<put-attribute name="title" value="My Own Briefcase - Admin"/>
+		<put-attribute name="body" type="template" value="/admin/mobAdmin.jsp" />
+		<put-attribute name="header" type="template" value="/common/adminLoginHeader.jsp"/>
+    </definition>
+    
+    <!-- satya added for flagged data  -->
+    
+     <definition name="mob.adminFlaggedInfo" template="/layout/adminLayoutFlaggedData.jsp">
+     	<put-attribute name="title" value="My Own Briefcase - Flag"/>
+		<put-attribute name="body" type="template" value="/admin/mobAdminFlaggedData.jsp" />
+		<put-attribute name="header" type="template" value="/common/adminLoginHeader.jsp"/>
+    </definition>
+    
+     <definition name="mob.adminHelpInfo" template="/layout/adminHelpLayout.jsp">
+     	<put-attribute name="title" value="My Own Briefcase - Help"/>
+		<put-attribute name="body" type="template" value="/admin/mobAdminHelp.jsp" />
+		<put-attribute name="header" type="template" value="/common/adminLoginHeader.jsp"/>
+    </definition>
+    
+     <!-- satya added for flagged deleted data  -->
+   
+     <definition name=" mob.adminDeleteInfo" template="/layout/adminLayout.jsp">
+     	<put-attribute name="title" value="My Own Briefcase - Flag"/>
+		<put-attribute name="body" type="template" value="/admin/mobAdminFlaggedData.jsp" />
+		<put-attribute name="header" type="template" value="/common/adminLoginHeader.jsp"/>
+    </definition>
+    
+    
+     <definition name="mob.adminFlag" template="/layout/adminLayout.jsp">
+     	<put-attribute name="title" value="My Own Briefcase - Flag"/>
+		<put-attribute name="body" type="template" value="/admin/mobFlagAdmin.jsp" />
+		<put-attribute name="header" type="template" value="/common/adminLoginHeader.jsp"/>
+    </definition>
+    
+    
+    <definition name="mob.adminFlag" template="/layout/adminLayout.jsp">
+     	<put-attribute name="title" value="Admin"/>
+		<put-attribute name="body" type="template" value="/admin/mobFlagAdmin.jsp" />
+		<put-attribute name="header" type="template" value="/common/adminLoginHeader.jsp"/>
+    </definition>
+    
+    <definition name="mob.adminFlaggedData" template="/layout/adminLayoutFlaggedData.jsp">
+     	<put-attribute name="title" value="My Own Briefcase - Admin"/>
+		<put-attribute name="body" type="template" value="/admin/mobAdminFlaggedData.jsp" />
+		<put-attribute name="header" type="template" value="/common/adminLoginHeader.jsp"/>
+    </definition>
+      <!-- start of  group creation actions  -->
+    <definition name="mob.myGroup" extends="mob.default">
+     	<put-attribute name="title" value="My Own Briefcase - My Groups"/>
+     	  <put-attribute name="nav" type="template" value="/navigation/groups.jsp"/>
+		<put-attribute name="body" type="template" value="/myGroups/createGroup.jsp" />
+    </definition>
+
+  <definition name="mob.loadContcatsForGroup" extends="mob.default">
+     	<put-attribute name="title" value="My Own Briefcase - Load Contacts For Group"/>
+		<put-attribute name="body" type="template" value="/myGroups/listOfGroups.jsp" />
+    </definition>
+
+  <definition name="mob.listOfGroup" extends="mob.default">
+     	<put-attribute name="title" value="My Own Briefcase - My Groups"/>
+     	 <put-attribute name="nav" type="template" value="/navigation/groups.jsp"/>
+		<put-attribute name="body" type="template" value="/myGroups/listOfGroups.jsp" />
+    </definition>
+  
+  <definition name="mob.createGroup" extends="mob.default">
+     	<put-attribute name="title" value="myGroup"/>
+     	  <put-attribute name="nav" type="template" value="/navigation/groups.jsp"/>
+		<put-attribute name="body" type="template" value="/myGroups/createNewGroup.jsp" />
+    </definition>
+    
+    
+    <definition name="mob.groupInbox" extends="mob.default">
+     	<put-attribute name="title" value="My Own Briefcase - My Groups"/>
+     		  <put-attribute name="nav" type="template" value="/navigation/groups.jsp"/>
+		<put-attribute name="body" type="template" value="/myGroups/listOfMyGroups.jsp"/>
+    </definition>
+    
+     <definition name="mob.createTopic" extends="mob.default">
+     	<put-attribute name="title" value="My Own Briefcase - My Groups"/>
+     	   <put-attribute name="nav" type="template" value="/navigation/groups.jsp"/>
+		<put-attribute name="body" type="template" value="/myGroups/listOfGroups.jsp" />
+    </definition>
+    
+    <definition name="mob.groupMsgRead" extends="mob.default">
+     	<put-attribute name="title" value="myGroup"/>
+		<put-attribute name="body" type="template" value="/myGroups/messagereadInboxEmployeeForGroup.jsp" />
+    </definition>
+    
+     <definition name="mob.groupsProfile" extends="mob.default">
+     	<put-attribute name="title" value="My Own Briefcase - My Groups - Group Profile"/>
+     	 <put-attribute name="nav" type="template" value="/navigation/groups.jsp"/>
+		<put-attribute name="body" type="template" value="/myGroups/groupsProfile.jsp" />
+    </definition>
+    
+     <definition name="mob.listOfAllTopics" extends="mob.default">
+     	<put-attribute name="title" value="My Own Briefcase - My Groups - Vie Topics"/>
+     	 <put-attribute name="nav" type="template" value="/navigation/groups.jsp"/>
+		<put-attribute name="body" type="template" value="/myGroups/viewGroupAllTopics.jsp"/>
+    </definition>
+    
+     <definition name="mob.postTopics" extends="mob.default">
+     	<put-attribute name="title" value="My Own Briefcase - My Groups -Post Topics"/>
+     	 <put-attribute name="nav" type="template" value="/navigation/groups.jsp"/>
+		<put-attribute name="body" type="template" value="/myGroups/postTopics.jsp"/>
+    </definition>
+    
+
+     <definition name="mob.editGroup" extends="mob.default">
+     	<put-attribute name="title" value="My Own Briefcase - My Groups -Update"/>
+     	 <put-attribute name="nav" type="template" value="/navigation/groups.jsp"/>
+		<put-attribute name="body" type="template" value="/myGroups/updateGroup.jsp"/>
+    </definition>
+
+     <definition name="mob.viewGroupMembers" extends="mob.default">
+     	<put-attribute name="title" value="My Own Briefcase - My Groups -Group Members"/>
+     	 <put-attribute name="nav" type="template" value="/navigation/groups.jsp"/>
+		<put-attribute name="body" type="template" value="/myGroups/groupsMembers.jsp"/>
+    </definition>
+
+     <definition name="mob.employeeBreifcaseURL" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Briefcase - Links"/>
+         <put-attribute name="nav" type="template" value="/navigation/briefcase.jsp"/>
+        <put-attribute name="body" type="template" value="/employee/employeeBreifcaseURL.jsp" />
+    </definition>
+    
+      <definition name="mob.employerBriefcaseURL" extends="mob.default">
+        <put-attribute name="title" value="My Own Briefcase - My Briefcase - Links"/>
+         <put-attribute name="nav" type="template" value="/navigation/briefcase.jsp"/>
+        <put-attribute name="body" type="template" value="/employer/employerBreifcaseURL.jsp" />
+    </definition>
+   
+     <definition name="mob.viewGroupsProfile" extends="mob.default">
+     	<put-attribute name="title" value="My Own Briefcase - My Groups - Group Profile"/>
+     		 <put-attribute name="nav" type="template" value="/navigation/groups.jsp"/>
+		<put-attribute name="body" type="template" value="/myGroups/groupsProfile.jsp" />
+    </definition>
+     <!-- END of  group creation actions  -->
+     
+     
+      <definition name="viewBriefcaseURLFromSearch" extends="mob.default">
+     	<put-attribute name="title" value="My Own Briefcase -Links -Briefcase URL Items"/>
+		<put-attribute name="body" type="template" value="/common/viewBriefCaseItemsURLFromSearch.jsp" />
+    </definition>
+     
+      <definition name="mob.termsOfService" extends="mob.default1">
+     	<put-attribute name="title" value="My Own Briefcase - Terms Of Service"/>
+		<put-attribute name="body" type="template" value="/termsofService/termsOfService.jsp" />
+    </definition>
+    
+     <definition name="mob.aboutUs" extends="mob.default1">
+     	<put-attribute name="title" value="My Own Briefcase - About Us"/>
+		<put-attribute name="body" type="template" value="/aboutUs/aboutUs.jsp" />
+    </definition>
+    
+    
+     <definition name="mob.privacyPolicy" extends="mob.default1">
+     	<put-attribute name="title" value="My Own Briefcase - Privacy Policy"/>
+		<put-attribute name="body" type="template" value="/privacyandpolicy/privacyPolicy..jsp" />
+    </definition>
+    <definition name="mob.signupEmployeeEmployer" extends="mob.default">
+     	<put-attribute name="title" value="My Own Briefcase - Privacy Policy"/>
+		<put-attribute name="body" type="template" value="/signup/employeeEmployerSignupPage.jsp" />
+    </definition>
+    
+    <!-- Browse pages -->
+    <definition name="browse.employees" extends="mob.default">
+     	<put-attribute name="title" value="Browse Employees"/>
+		<put-attribute name="body" type="template" value="/browse/browseemployees.jsp" />
+    </definition>
+    <definition name="browse.employers" extends="mob.default">
+     	<put-attribute name="title" value="Browse Employers"/>
+		<put-attribute name="body" type="template" value="/browse/browseemployers.jsp" />
+    </definition>
+    <definition name="browse.groups" extends="mob.default">
+     	<put-attribute name="title" value="Browse Groups"/>
+		<put-attribute name="body" type="template" value="/browse/browsegroups.jsp" />
+    </definition>
+    <definition name="browse.opps" extends="mob.default">
+     	<put-attribute name="title" value="Browse Opportunities"/>
+		<put-attribute name="body" type="template" value="/browse/browseopps.jsp" />
+    </definition>
+
+    <!-- Browse pages -->
+    
+   
+</tiles-definitions>

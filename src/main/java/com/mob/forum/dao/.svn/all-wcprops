@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/MyOwnBriefcase/!svn/ver/3977/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/dao
+END
+LuceneDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/dao/LuceneDAO.java
+END
+TreeGroupDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/dao/TreeGroupDAO.java
+END
+CategoryDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/dao/CategoryDAO.java
+END
+TopicDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/dao/TopicDAO.java
+END
+UserDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/MyOwnBriefcase/!svn/ver/3949/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/dao/UserDAO.java
+END
+PrivateMessageDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/dao/PrivateMessageDAO.java
+END
+SmilieDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/dao/SmilieDAO.java
+END
+UserSessionDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/dao/UserSessionDAO.java
+END
+DataAccessDriver.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/MyOwnBriefcase/!svn/ver/3948/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/dao/DataAccessDriver.java
+END
+GroupSecurityDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/dao/GroupSecurityDAO.java
+END
+PostDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/dao/PostDAO.java
+END
+MailIntegrationDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/dao/MailIntegrationDAO.java
+END
+ForumDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/dao/ForumDAO.java
+END
+AttachmentDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/dao/AttachmentDAO.java
+END
+RankingDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/dao/RankingDAO.java
+END
+MySQLVersionWorkarounder.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/dao/MySQLVersionWorkarounder.java
+END
+KarmaDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/dao/KarmaDAO.java
+END
+BanlistDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/dao/BanlistDAO.java
+END
+GroupDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/dao/GroupDAO.java
+END
+SummaryDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/dao/SummaryDAO.java
+END
+ModerationDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/dao/ModerationDAO.java
+END
+ModerationLogDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/dao/ModerationLogDAO.java
+END
+ConfigDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/dao/ConfigDAO.java
+END
+BookmarkDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/dao/BookmarkDAO.java
+END
+BannerDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/dao/BannerDAO.java
+END
+PollDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/dao/PollDAO.java
+END
+ApiDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/dao/ApiDAO.java
+END

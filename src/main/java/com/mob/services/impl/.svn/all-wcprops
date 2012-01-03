@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/MyOwnBriefcase/!svn/ver/4556/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services/impl
+END
+EmployerServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services/impl/EmployerServiceImpl.java
+END
+EmployeeAccountServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services/impl/EmployeeAccountServiceImpl.java
+END
+ItemServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/MyOwnBriefcase/!svn/ver/4541/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services/impl/ItemServiceImpl.java
+END
+EmployeeProfileServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/MyOwnBriefcase/!svn/ver/4529/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services/impl/EmployeeProfileServiceImpl.java
+END
+ProfileServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/MyOwnBriefcase/!svn/ver/4316/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services/impl/ProfileServiceImpl.java
+END
+SearchServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/MyOwnBriefcase/!svn/ver/4555/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services/impl/SearchServiceImpl.java
+END
+EmployerAccountServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services/impl/EmployerAccountServiceImpl.java
+END
+BaseServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services/impl/BaseServiceImpl.java
+END
+UserManagementServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/MyOwnBriefcase/!svn/ver/4556/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services/impl/UserManagementServiceImpl.java
+END
+OpportunityServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services/impl/OpportunityServiceImpl.java
+END
+EmployeeOpportunityServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services/impl/EmployeeOpportunityServiceImpl.java
+END
+SW3ServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services/impl/SW3ServiceImpl.java
+END
+MessagingServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/MyOwnBriefcase/!svn/ver/4325/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services/impl/MessagingServiceImpl.java
+END
+EmployerProfileServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/MyOwnBriefcase/!svn/ver/4538/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services/impl/EmployerProfileServiceImpl.java
+END
+AdminSearchServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/MyOwnBriefcase/!svn/ver/4495/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services/impl/AdminSearchServiceImpl.java
+END
+EmployeeServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services/impl/EmployeeServiceImpl.java
+END
+BriefCaseServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services/impl/BriefCaseServiceImpl.java
+END
+FeedbackServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services/impl/FeedbackServiceImpl.java
+END
+NewsManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/MyOwnBriefcase/!svn/ver/4316/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services/impl/NewsManagerImpl.java
+END
+PrivacyGroupServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/MyOwnBriefcase/!svn/ver/4098/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services/impl/PrivacyGroupServiceImpl.java
+END
+ContactEmployeeServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services/impl/ContactEmployeeServiceImpl.java
+END

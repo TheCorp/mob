@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/MyOwnBriefcase/!svn/ver/4398/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/group
+END
+MakeGroupAdminAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/MyOwnBriefcase/!svn/ver/3695/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/group/MakeGroupAdminAction.java
+END
+LoadContactsForGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/group/LoadContactsForGroup.java
+END
+DeleteGroupMemberAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/MyOwnBriefcase/!svn/ver/3599/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/group/DeleteGroupMemberAction.java
+END
+ListOfMyGroups.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/MyOwnBriefcase/!svn/ver/3662/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/group/ListOfMyGroups.java
+END
+CreateGroupDiscussions.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/MyOwnBriefcase/!svn/ver/4398/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/group/CreateGroupDiscussions.java
+END
+LoadGroupProfileInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/MyOwnBriefcase/!svn/ver/4382/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/group/LoadGroupProfileInfo.java
+END
+AcceptDenyGroupAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/MyOwnBriefcase/!svn/ver/3526/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/group/AcceptDenyGroupAction.java
+END
+CheckForExistingGroupAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/MyOwnBriefcase/!svn/ver/3427/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/group/CheckForExistingGroupAction.java
+END
+JoinGroupAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/MyOwnBriefcase/!svn/ver/3738/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/group/JoinGroupAction.java
+END
+LoadGroupAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/MyOwnBriefcase/!svn/ver/3954/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/group/LoadGroupAction.java
+END
+SaveTopicAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/MyOwnBriefcase/!svn/ver/3768/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/group/SaveTopicAction.java
+END
+CreateGroupAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/MyOwnBriefcase/!svn/ver/4381/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/view/action/group/CreateGroupAction.java
+END

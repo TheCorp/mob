@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/MyOwnBriefcase/!svn/ver/4556/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services
+END
+AdminSearchService.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/MyOwnBriefcase/!svn/ver/4431/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services/AdminSearchService.java
+END
+EmployeeService.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services/EmployeeService.java
+END
+CommunicationManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services/CommunicationManager.java
+END
+BriefCaseService.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services/BriefCaseService.java
+END
+FeedbackService.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services/FeedbackService.java
+END
+NewsManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services/NewsManager.java
+END
+PrivacyGroupService.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services/PrivacyGroupService.java
+END
+SW3Sevice.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services/SW3Sevice.java
+END
+UserManagement.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/MyOwnBriefcase/!svn/ver/4473/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services/UserManagement.java
+END
+ContactEmployeeService.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services/ContactEmployeeService.java
+END
+EmployerService.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services/EmployerService.java
+END
+EmployeeAccountService.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services/EmployeeAccountService.java
+END
+PrivacyGroupNames.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/MyOwnBriefcase/!svn/ver/4553/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services/PrivacyGroupNames.java
+END
+ItemService.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/MyOwnBriefcase/!svn/ver/4542/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services/ItemService.java
+END
+BriefcaseManagement.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services/BriefcaseManagement.java
+END
+EmployeeProfileService.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/MyOwnBriefcase/!svn/ver/4537/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services/EmployeeProfileService.java
+END
+ProfileService.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/MyOwnBriefcase/!svn/ver/4291/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services/ProfileService.java
+END
+AdminManagement.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services/AdminManagement.java
+END
+SearchService.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/MyOwnBriefcase/!svn/ver/4554/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services/SearchService.java
+END
+GroupManagement.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services/GroupManagement.java
+END
+EmployerAccountService.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services/EmployerAccountService.java
+END
+BaseService.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services/BaseService.java
+END
+EmployeeOpportunityService.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services/EmployeeOpportunityService.java
+END
+OpportunityService.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services/OpportunityService.java
+END
+ProfileManagement.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services/ProfileManagement.java
+END
+EmployerProfileService.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/MyOwnBriefcase/!svn/ver/4472/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services/EmployerProfileService.java
+END
+MessagingService.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/MyOwnBriefcase/!svn/ver/4078/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/services/MessagingService.java
+END

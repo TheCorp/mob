@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/MyOwnBriefcase/!svn/ver/4583/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/dao
+END
+NewsDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/dao/NewsDao.java
+END
+EmployeeOpportunityDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/dao/EmployeeOpportunityDao.java
+END
+OpportunityDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/dao/OpportunityDao.java
+END
+SW3Dao.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/dao/SW3Dao.java
+END
+MessagingDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/dao/MessagingDao.java
+END
+EmployerProfileDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/MyOwnBriefcase/!svn/ver/4474/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/dao/EmployerProfileDao.java
+END
+AdminSearchDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/MyOwnBriefcase/!svn/ver/4428/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/dao/AdminSearchDao.java
+END
+UserDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/dao/UserDao.java
+END
+BriefCaseDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/dao/BriefCaseDao.java
+END
+FeedbackDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/dao/FeedbackDao.java
+END
+HelpDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/dao/HelpDao.java
+END
+GroupMobDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/MyOwnBriefcase/!svn/ver/4395/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/dao/GroupMobDao.java
+END
+PrivacyGroupDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/dao/PrivacyGroupDao.java
+END
+ContactEmployeeDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/dao/ContactEmployeeDao.java
+END
+EmployeeAccountDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/dao/EmployeeAccountDao.java
+END
+ItemDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/MyOwnBriefcase/!svn/ver/4535/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/dao/ItemDao.java
+END
+EmployeeProfileDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/MyOwnBriefcase/!svn/ver/4521/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/dao/EmployeeProfileDao.java
+END
+ProfileDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/dao/ProfileDao.java
+END
+SearchDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/MyOwnBriefcase/!svn/ver/4549/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/dao/SearchDao.java
+END
+FlagDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/dao/FlagDao.java
+END
+EmployerAccountDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/dao/EmployerAccountDao.java
+END
+BaseDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/dao/BaseDao.java
+END

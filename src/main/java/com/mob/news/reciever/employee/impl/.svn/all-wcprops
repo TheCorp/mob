@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/MyOwnBriefcase/!svn/ver/4441/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/news/reciever/employee/impl
+END
+BaseEmployeeNotificationHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/MyOwnBriefcase/!svn/ver/4316/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/news/reciever/employee/impl/BaseEmployeeNotificationHandler.java
+END
+ProfileViewedByEmployerNotificationHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 185
+/svn/MyOwnBriefcase/!svn/ver/4441/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/news/reciever/employee/impl/ProfileViewedByEmployerNotificationHandler.java
+END
+ProfileMarkedAsFavorite.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/MyOwnBriefcase/!svn/ver/4316/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/news/reciever/employee/impl/ProfileMarkedAsFavorite.java
+END
+EmployeeInboxMessageNotificationHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 182
+/svn/MyOwnBriefcase/!svn/ver/4316/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/news/reciever/employee/impl/EmployeeInboxMessageNotificationHandler.java
+END

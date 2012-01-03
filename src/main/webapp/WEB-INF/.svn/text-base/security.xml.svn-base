@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
+            http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.0.xsd"
+       default-lazy-init="true">
+       
+       
+
+    <!-- ======================== FILTER CHAIN ======================= -->
+    <bean id="filterChainProxy" class="org.acegisecurity.util.FilterChainProxy">
+        <property name="filterInvocationDefinitionSource">
+            <value>
+                CONVERT_URL_TO_LOWERCASE_BEFORE_COMPARISON
+                PATTERN_TYPE_APACHE_ANT
+                /styles/**=#NONE#
+				/public/**=#NONE#
+                /**=httpSessionContextIntegrationFilter,authenticationProcessingFilter,securityContextHolderAwareRequestFilter,rememberMeProcessingFilter,anonymousProcessingFilter,exceptionTranslationFilter,filterInvocationInterceptor
+            </value>
+            <!-- Put channelProcessingFilter before securityContextHolderAwareRequestFilter to turn on SSL switching -->
+            <!-- It's off by default b/c Canoo WebTest doesn't support SSL out-of-the-box -->
+        </property>
+    </bean>
+
+    <bean id="httpSessionContextIntegrationFilter"
+    	class="org.acegisecurity.context.HttpSessionContextIntegrationFilter">
+    	<property name="context">
+    		<value>
+    			org.acegisecurity.captcha.CaptchaSecurityContextImpl
+    		</value>
+    	</property>
+    </bean>
+
+    <!-- Changed to use logout.jsp since causes 404 on WebSphere: http://issues.appfuse.org/browse/APF-566 -->
+    <!--bean id="logoutFilter" class="org.acegisecurity.ui.logout.LogoutFilter">
+        <constructor-arg value="/index.jsp"/>
+        <constructor-arg>
+            <list>
+                <ref bean="rememberMeServices"/>
+                <bean class="org.acegisecurity.ui.logout.SecurityContextLogoutHandler"/>
+            </list>
+        </constructor-arg>
+        <property name="filterProcessesUrl" value="/logout.jsp"/>
+    </bean-->
+
+    <bean id="authenticationProcessingFilter" class="com.mob.integration.authentication.MobJforumAuthenticationFilter">
+        <property name="authenticationManager" ref="authenticationManager"/>
+        <property name="authenticationFailureUrl" value="/public/loginFailed.action"/>
+        <property name="defaultTargetUrl" value="/public/login.action"/>
+        <property name="filterProcessesUrl" value="/j_security_check"/>
+        <property name="rememberMeServices" ref="rememberMeServices"/>
+        <property name="integrationPoint" ref="integrationPoint"/>
+        <property name="targetUrls">
+            <map>
+                <entry key="ROLE_ADMIN">
+                    <value>/public/mobAdmin.action</value>
+                </entry>
+                <entry key="NON_ADMIN">
+                    <value>/public/login.action</value>
+                </entry>
+            </map>
+        </property>
+        <!-- To be commented only in the local setup. Make sure this is uncommented when checked in -->
+        <property name="newsManager" ref="newsManager"/>
+        <property name="profileServiceBean" ref="employeeprofileService"/>
+    </bean>
+
+    <bean id="securityContextHolderAwareRequestFilter" class="org.acegisecurity.wrapper.SecurityContextHolderAwareRequestFilter"/>
+
+       <bean id="rememberMeProcessingFilter" class="org.acegisecurity.ui.rememberme.RememberMeProcessingFilter">
+        <property name="rememberMeServices" ref="rememberMeServices"/>
+        <property name="authenticationManager" ref="authenticationManager"/>
+    </bean>
+
+    <bean id="anonymousProcessingFilter" class="org.acegisecurity.providers.anonymous.AnonymousProcessingFilter">
+        <property name="key" value="anonymous"/>
+        <property name="userAttribute" value="anonymous,ROLE_ANONYMOUS"/>
+    </bean>
+
+    <bean id="exceptionTranslationFilter" class="org.acegisecurity.ui.ExceptionTranslationFilter">
+        <property name="authenticationEntryPoint">
+            <bean class="org.acegisecurity.ui.webapp.AuthenticationProcessingFilterEntryPoint">
+                <property name="loginFormUrl" value="/"/>
+                <property name="forceHttps" value="false"/>
+            </bean>
+        </property>
+    </bean>
+
+   <bean id="filterInvocationInterceptor" class="org.acegisecurity.intercept.web.FilterSecurityInterceptor">
+        <property name="authenticationManager" ref="authenticationManager"/>
+        <property name="accessDecisionManager" ref="accessDecisionManager"/>
+        <property name="objectDefinitionSource">
+            <value>
+                PATTERN_TYPE_APACHE_ANT
+                /**/admin/*=ROLE_ADMIN
+                /**/employee/*=ROLE_EMPLOYEE
+                /**/employer/*=ROLE_EMPLOYER
+                /passwordHint.action*=ROLE_ANONYMOUS                
+                /public/employeesignup.action*=ROLE_ANONYMOUS
+                 /public/employersignup.action*=ROLE_ANONYMOUS
+                /public/addNextReg.action*=ROLE_ANONYMOUS
+                /public/Briefcase.action*= ROLE_ADMIN,ROLE_EMPLOYER,ROLE_EMPLOYEE                
+                /**/public*.action*=ROLE_ANONYMOUS
+                /**/public*=ROLE_ANONYMOUS
+                /browse/*=ROLE_ANONYMOUS,ROLE_EMPLOYER,ROLE_EMPLOYEE 
+                /browse/browse*.action*=ROLE_ANONYMOUS,ROLE_EMPLOYER,ROLE_EMPLOYEE 
+                /**/common*=ROLE_ANONYMOUS
+                /**/common/profile.jsp=ROLE_ADMIN,ROLE_EMPLOYER,ROLE_EMPLOYEE
+                /**/*.action*=ROLE_ADMIN,ROLE_EMPLOYER,ROLE_EMPLOYEE
+               
+             </value>
+        </property>
+    </bean>
+
+    <bean id="accessDecisionManager" class="org.acegisecurity.vote.AffirmativeBased">
+        <property name="allowIfAllAbstainDecisions" value="false"/>
+        <property name="decisionVoters">
+            <list>
+                <bean class="org.acegisecurity.vote.RoleVoter"/>
+            </list>
+        </property>
+    </bean>
+
+<!-- added on 15-12-08 -->
+        <bean id="rememberMeServices" class="org.acegisecurity.ui.rememberme.TokenBasedRememberMeServices">
+        <property name="userDetailsService" ref="userDao"/>
+        <property name="key" value="23_*!cdU='612./e;NrI"/>
+    </bean>
+
+    <bean id="authenticationManager" class="org.acegisecurity.providers.ProviderManager">
+        <property name="providers">
+            <list>
+                <ref local="daoAuthenticationProvider"/>
+                <ref local="anonymousAuthenticationProvider"/>
+                <ref local="rememberMeAuthenticationProvider"/>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="daoAuthenticationProvider"
+    class="org.acegisecurity.providers.dao.DaoAuthenticationProvider">
+         <property name="userDetailsService" ref="userDao"/>
+         <property name="passwordEncoder" ref="passwordEncoder"/>
+
+    </bean>
+
+    <bean id="anonymousAuthenticationProvider" class="org.acegisecurity.providers.anonymous.AnonymousAuthenticationProvider">
+        <property name="key" value="anonymous"/>
+    </bean>
+
+       <bean id="rememberMeAuthenticationProvider"
+          class="org.acegisecurity.providers.rememberme.RememberMeAuthenticationProvider">
+        <property name="key" value="23_*!cdU='612./e;NrI"/>
+    </bean>
+
+    <!-- This bean definition must be available to ApplicationContext.getBean() so StartupListener
+         can look for it and detect if password encryption is turned on or not -->
+    <bean id="passwordEncoder" class="org.acegisecurity.providers.encoding.ShaPasswordEncoder">
+    		<property name="encodeHashAsBase64">
+    			<value>true</value>
+    		</property>
+     </bean>
+
+    <!-- This bean is optional; it isn't used by any other bean as it only listens and logs -->
+    <bean id="loggerListener" class="org.acegisecurity.event.authentication.LoggerListener"/>
+
+    <!-- Apply method-level interceptor to userManager bean -->
+    <!--<aop:config>-->
+        <!--<aop:advisor id="managerSecurity" advice-ref="methodSecurityInterceptor" pointcut="execution(* com.cellzapp.portal.service.UserManagementService.*(..))"/>-->
+    <!--</aop:config>-->
+
+    <!-- bean id="methodSecurityInterceptor" class="org.acegisecurity.intercept.method.aopalliance.MethodSecurityInterceptor">
+        <property name="authenticationManager" ref="authenticationManager"/>
+        <property name="accessDecisionManager" ref="accessDecisionManager"/>
+        <property name="objectDefinitionSource">
+             <value>
+                 com.cellzapp.portal.service.UserManagementService.getUsers=ROLE_ADMIN
+                 com.cellzapp.waves.service.UserManager.removeUser=ROLE_ADMIN
+             </value>
+        </property>
+    </bean -->
+
+    <!-- SSL Switching: to use this, configure it in the filterChainProxy bean -->
+    <bean id="channelProcessingFilter" class="org.acegisecurity.securechannel.ChannelProcessingFilter">
+        <property name="channelDecisionManager" ref="channelDecisionManager"/>
+        <property name="filterInvocationDefinitionSource">
+            <value>
+                PATTERN_TYPE_APACHE_ANT
+                /admin/**=REQUIRES_SECURE_CHANNEL
+                /login*=REQUIRES_SECURE_CHANNEL
+                 /signup.action*=REQUIRES_CAPTCHA_ONCE_ABOVE_THRESOLD_REQUESTS,REQUIRES_CAPTCHA_BELOW_AVERAGE_TIME_IN_MILLIS_REQUESTS
+                /j_security_check*=REQUIRES_SECURE_CHANNEL
+                /editProfile.action*=REQUIRES_SECURE_CHANNEL
+                /Briefcase.action*=REQUIRES_SECURE_CHANNEL
+                /signup.action*=REQUIRES_SECURE_CHANNEL
+                /saveUser.action*=REQUIRES_SECURE_CHANNEL
+                /**=REQUIRES_INSECURE_CHANNEL
+            </value>
+        </property>
+    </bean>
+
+    <bean id="channelDecisionManager" class="org.acegisecurity.securechannel.ChannelDecisionManagerImpl">
+        <property name="channelProcessors">
+            <list>
+                <bean class="org.acegisecurity.securechannel.SecureChannelProcessor"/>
+                <bean class="org.acegisecurity.securechannel.InsecureChannelProcessor"/>
+                <ref local="testOnceAfterMaxRequestsCaptchaChannelProcessor"/>
+ 				<ref local="alwaysTestAfterTimeInMillisCaptchaChannelProcessor"/>
+				<ref local="alwaysTestAfterMaxRequestsCaptchaChannelProcessor"/>
+				<ref local="alwaysTestBelowAverageTimeInMillisBetweenRequestsChannelProcessor"/>
+            </list>
+        </property>
+    </bean>
+    
+    <bean id="testOnceAfterMaxRequestsCaptchaChannelProcessor"
+    	class="org.acegisecurity.captcha.TestOnceAfterMaxRequestsCaptchaChannelProcessor">
+    	<property name="thresold">
+    		<value>4</value>
+    	</property>
+    	<property name="entryPoint">
+    		<ref bean="captchaEntryPoint" />
+    	</property>
+    </bean>
+    <bean id="alwaysTestAfterTimeInMillisCaptchaChannelProcessor"
+    	class="org.acegisecurity.captcha.AlwaysTestAfterTimeInMillisCaptchaChannelProcessor">
+    	<property name="thresold">
+    		<value>5000</value>
+    	</property>
+    	<property name="entryPoint">
+    		<ref bean="captchaEntryPoint" />
+    	</property>
+    </bean>
+    <bean id="alwaysTestAfterMaxRequestsCaptchaChannelProcessor"
+    	class="org.acegisecurity.captcha.AlwaysTestAfterMaxRequestsCaptchaChannelProcessor">
+    	<property name="thresold">
+    		<value>5</value>
+    	</property>
+    	<property name="entryPoint">
+    		<ref bean="captchaEntryPoint" />
+    	</property>
+    </bean>
+    <bean
+    	id="alwaysTestBelowAverageTimeInMillisBetweenRequestsChannelProcessor"
+    	class="org.acegisecurity.captcha.AlwaysTestBelowAverageTimeInMillisBetweenRequestsChannelProcessor">
+    	<property name="thresold">
+    		<value>20000</value>
+    	</property>
+    	<property name="entryPoint">
+    		<ref bean="captchaEntryPoint" />
+    	</property>
+    </bean>
+
+    <bean id="captchaEntryPoint"
+    	class="org.acegisecurity.captcha.CaptchaEntryPoint">
+    	<property name="captchaFormUrl">
+    		<value>/signup.action</value>
+    	</property>
+    </bean>
+    
+     <bean id="captchaValidationProcessingFilter" class="org.acegisecurity.captcha.CaptchaValidationProcessingFilter">
+  <property name="captchaService">
+     <ref bean="captchaService" />
+   </property>
+   <property name="captchaValidationParameter">
+     <value>j_captcha_response</value>
+  </property>
+ </bean>
+ 
+ 
+      <!-- JcaptchaService designated Verification Code used to generate the type of picture, but this picture is difficult to generate the look, the following generation there is a custom picture of the method --> 
+
+     
+ <bean id="captchaService" class="com.mob.services.jcaptcha.JCaptchaServiceProxyImpl" >
+   <property name="jcaptchaService" ref="jcaptchaService" />
+ </bean> 
+ 
+ <!--  <bean id="jcaptchaService" class="com.octo.captcha.service.image.DefaultManageableImageCaptchaService" /> -->
+
+ <bean id="jcaptchaService"
+ 	class="com.octo.captcha.service.multitype.GenericManageableCaptchaService">
+ 	<constructor-arg index="0">
+ 		<ref bean="imageEngine" />
+ 	</constructor-arg>
+ 	<constructor-arg index="1">
+ 		<value>180</value>
+ 	</constructor-arg>
+ 	<constructor-arg index="2">
+ 		<value>180000</value>
+ 	</constructor-arg>
+ </bean>
+
+ <bean id="imageEngine"
+ 	class="com.octo.captcha.engine.GenericCaptchaEngine">
+ 	<constructor-arg index="0">
+ 		<list>
+ 			<ref bean="CaptchaFactory" />
+ 		</list>
+ 	</constructor-arg>
+ </bean>
+
+  <bean id="CaptchaFactory" class="com.octo.captcha.image.gimpy.GimpyFactory"> 
+<constructor-arg><ref bean="wordgen"/></constructor-arg> 
+<constructor-arg><ref bean="wordtoimage"/></constructor-arg> 
+</bean> 
+
+
+ <bean id="wordgen"
+ 	class="com.octo.captcha.component.word.wordgenerator.DictionaryWordGenerator">
+ 	<constructor-arg>
+ 		<ref bean="filedict" />
+ 	</constructor-arg>
+ </bean>
+
+ <bean id="wordtoimage"
+ 	class="com.octo.captcha.component.image.wordtoimage.ComposedWordToImage">
+ 	<constructor-arg index="0">
+ 		<ref bean="fontGenRandom" />
+ 	</constructor-arg>
+ 	<constructor-arg index="1">
+ 		<ref bean="backGenUni" />
+ 	</constructor-arg>
+ 	<constructor-arg index="2">
+ 		<ref bean="simpleWhitePaster" />
+ 	</constructor-arg>
+ </bean>
+
+ <bean id="filedict"
+ 	class="com.octo.captcha.component.word.FileDictionary">
+ 	<constructor-arg index="0">
+ 		<value>toddlist</value>
+ 	</constructor-arg>
+ </bean>
+
+ <bean id="fontGenRandom"
+ 	class="com.octo.captcha.component.image.fontgenerator.RandomFontGenerator">
+ 	<!-- Minimum font Verification Code -->
+ 	<constructor-arg index="0">
+ 		<value>20</value>
+ 	</constructor-arg>
+ 	<!-- Maximum font Verification Code -->
+ 	<constructor-arg index="1">
+ 		<value>20</value>
+ 	</constructor-arg>
+ 	<constructor-arg index="2">
+ 		<list>
+ 			<ref bean="fontArial" />
+ 			<ref bean="fontArial" />
+ 		</list>
+ 	</constructor-arg>
+ </bean>
+
+ <bean id="fontArial" class="java.awt.Font">
+ 	<constructor-arg index="0">
+ 		<value>Arial</value>
+ 	</constructor-arg>
+ 	<constructor-arg index="1">
+ 		<value>0</value>
+ 	</constructor-arg>
+ 	<constructor-arg index="2">
+ 		<value>10</value>
+ 	</constructor-arg>
+ </bean>
+
+ <bean id="backGenUni"
+ 	class="com.octo.captcha.component.image.backgroundgenerator.UniColorBackgroundGenerator">
+ 	<!-- Photos Verification Code length -->
+ 	<constructor-arg index="0">
+ 		<value>80</value>
+ 	</constructor-arg>
+ 	<!-- Picture height Verification Code -->
+ 	<constructor-arg index="1">
+ 		<value>25</value>
+ 	</constructor-arg>
+ </bean>
+
+ <bean id="simpleWhitePaster"
+		class="com.octo.captcha.component.image.textpaster.SimpleTextPaster">
+		<!--The minimum number of Verification Code-->
+		<constructor-arg type="java.lang.Integer" index="0">
+			<value>4</value>
+		</constructor-arg>
+		<!-- Maximum number of Verification Code-->
+		<constructor-arg type="java.lang.Integer" index="1">
+			<value>4</value>
+		</constructor-arg>
+		<!-- Color Verification Code -->
+		<constructor-arg type="java.awt.Color" index="2">
+			<ref bean="colorGreen" />
+		</constructor-arg>
+	</bean>
+
+ <bean id="colorGreen" class="java.awt.Color">
+ 	<constructor-arg index="0">
+ 		<value>0</value>
+ 	</constructor-arg>
+ 	<constructor-arg index="1">
+ 		<value>0</value>
+ 	</constructor-arg>
+ 	<constructor-arg index="2">
+ 		<value>255</value>
+ 	</constructor-arg>
+ 	</bean>
+</beans>

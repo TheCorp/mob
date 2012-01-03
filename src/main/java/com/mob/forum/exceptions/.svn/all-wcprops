@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/exceptions
+END
+MailException.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/exceptions/MailException.java
+END
+BadExtensionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/exceptions/BadExtensionException.java
+END
+MultipartHandlingException.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/exceptions/MultipartHandlingException.java
+END
+AttachmentSizeTooBigException.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/exceptions/AttachmentSizeTooBigException.java
+END
+LoadForumException.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/exceptions/LoadForumException.java
+END
+ForumException.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/exceptions/ForumException.java
+END
+AttachmentException.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/exceptions/AttachmentException.java
+END
+TemplateNotFoundException.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/exceptions/TemplateNotFoundException.java
+END
+RankingLoadException.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/exceptions/RankingLoadException.java
+END
+CategoryNotFoundException.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/exceptions/CategoryNotFoundException.java
+END
+ForumOrderChangedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/exceptions/ForumOrderChangedException.java
+END
+XMLException.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/exceptions/XMLException.java
+END
+RepositoryStartupException.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/exceptions/RepositoryStartupException.java
+END
+CacheException.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/exceptions/CacheException.java
+END
+DatabaseException.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/exceptions/DatabaseException.java
+END
+ConfigLoadException.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/exceptions/ConfigLoadException.java
+END
+SearchException.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/exceptions/SearchException.java
+END
+SmiliesLoadException.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/exceptions/SmiliesLoadException.java
+END
+InvalidURLPatternException.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/exceptions/InvalidURLPatternException.java
+END
+RequestEmptyException.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/exceptions/RequestEmptyException.java
+END
+SecurityLoadException.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/exceptions/SecurityLoadException.java
+END
+APIException.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/exceptions/APIException.java
+END
+SearchInstantiationException.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/exceptions/SearchInstantiationException.java
+END
+ForumStartupException.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/exceptions/ForumStartupException.java
+END
+ExceptionWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/exceptions/ExceptionWriter.java
+END
+CacheEngineStartupException.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/exceptions/CacheEngineStartupException.java
+END
+InvalidBookmarkTypeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/exceptions/InvalidBookmarkTypeException.java
+END

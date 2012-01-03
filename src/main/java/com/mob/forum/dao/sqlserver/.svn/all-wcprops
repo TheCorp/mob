@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/dao/sqlserver
+END
+SqlServerPostDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/dao/sqlserver/SqlServerPostDAO.java
+END
+SqlServerKarmaDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/dao/sqlserver/SqlServerKarmaDAO.java
+END
+SqlServerTopicDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/dao/sqlserver/SqlServerTopicDAO.java
+END
+SqlServerUserDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/dao/sqlserver/SqlServerUserDAO.java
+END
+SqlServerPrivateMessageDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/dao/sqlserver/SqlServerPrivateMessageDAO.java
+END
+SqlServerDataAccessDriver.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/java/com/mob/forum/dao/sqlserver/SqlServerDataAccessDriver.java
+END

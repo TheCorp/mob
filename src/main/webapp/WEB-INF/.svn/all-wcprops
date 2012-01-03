@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/MyOwnBriefcase/!svn/ver/4585/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/webapp/WEB-INF
+END
+tiles.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/MyOwnBriefcase/!svn/ver/4585/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/webapp/WEB-INF/tiles.xml
+END
+servlet-context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/webapp/WEB-INF/servlet-context.xml
+END
+security.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/MyOwnBriefcase/!svn/ver/4585/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/webapp/WEB-INF/security.xml
+END
+applicationContext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/MyOwnBriefcase/!svn/ver/4585/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/webapp/WEB-INF/applicationContext.xml
+END
+dispatcher-servlet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/webapp/WEB-INF/dispatcher-servlet.xml
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/webapp/WEB-INF/log4j.properties
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/MyOwnBriefcase/!svn/ver/4316/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/webapp/WEB-INF/web.xml
+END
+log4j.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/MyOwnBriefcase/!svn/ver/3393/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/src/main/webapp/WEB-INF/log4j.xml
+END

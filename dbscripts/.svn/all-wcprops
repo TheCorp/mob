@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/MyOwnBriefcase/!svn/ver/4589/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/dbscripts
+END
+UpdateMetaData.sql
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MyOwnBriefcase/!svn/ver/4125/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/dbscripts/UpdateMetaData.sql
+END
+UpdateSchema.sql
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/MyOwnBriefcase/!svn/ver/4125/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/dbscripts/UpdateSchema.sql
+END
+CreateMetaData.sql
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/MyOwnBriefcase/!svn/ver/4125/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/dbscripts/CreateMetaData.sql
+END
+CreateSchema.sql
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/MyOwnBriefcase/!svn/ver/4125/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/dbscripts/CreateSchema.sql
+END
+TIGGERS.sql
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/MyOwnBriefcase/!svn/ver/4589/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/dbscripts/TIGGERS.sql
+END
+mob.sql
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/MyOwnBriefcase/!svn/ver/4589/Code%20Base/Group_IntegratedCode_09Dec/MyOwnBriefcase/dbscripts/mob.sql
+END
