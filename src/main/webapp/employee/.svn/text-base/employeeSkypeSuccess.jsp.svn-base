@@ -1,3 +1,0 @@
-<%@ page language="java" pageEncoding="UTF-8" contentType="application/json" %>
-<%@ taglib uri="/struts-tags" prefix="s" %>
-{"names":[<s:iterator value="contactsForSkype"status="rowstatus">{"name":"<s:property value="nickName"/>","resizedMinPicture":"<s:property value="resizedMinPicture"/>","skype":"<s:property value="contactOwner.profileOwner.skypeId"/>"}<s:if test="!#rowstatus.last">,</s:if></s:iterator>]}

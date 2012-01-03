@@ -1,2 +1,0 @@
-struts.multipart.parser=org.apache.struts2.dispatcher.multipart.JakartaMultiPartRequest 
-struts.multipart.maxSize=8192000
